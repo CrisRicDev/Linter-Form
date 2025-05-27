@@ -1,9 +1,11 @@
-body {
+  body {
   color: rgb(255, 255, 255);
   margin: 0;
 }
 
 body::before {
+
+
   content: " ";
   position: fixed;
   top: 0;
@@ -19,17 +21,17 @@ body::before {
   background-position: center;
 }
 
-h1 {
+    h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
   margin: 1em auto;
   padding: 0;
   font-size: 3em;
-}
+    }
 
 p {
-  font-family: 'Italianno', cursive;
+font-family: 'Italianno', cursive;
   font-weight: 300;
   text-align: center;
   margin: 5px auto 50px auto;
@@ -38,8 +40,7 @@ p {
 }
 
 #survey-form {
-  width: 60%;
-  margin: 0 auto;
+  width: 60%;  margin: 0 auto;
   background-color: rgba(3, 3, 17, 0.5);
   padding: 2em;
   border-radius: 0.5em;
